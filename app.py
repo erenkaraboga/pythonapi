@@ -2,12 +2,8 @@
 import cloudinary
 import colour
 from flask import Flask, json, request, jsonify
-from flask_ngrok import run_with_ngrok
 import cloudinary.uploader
-import os
-import urllib.request
 import math
-import csv
 from PIL import Image
 from multiprocessing import Pool
 import numpy as np
